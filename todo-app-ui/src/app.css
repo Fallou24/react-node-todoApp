@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: .985rem;
+}
+button,input{
+    border: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    flex-direction: column;
+}
+.homeContainer{
+    background-color: #fff;
+    padding: 2rem;
+    width: 40%;
+    text-align: center;
+}
+.homeForm{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+}
+input{
+    background: #ccc;
+    height: 35px;
+    padding-left: 1rem;
+    flex: 1;
+}
+.homeTitle{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.submitButton{
+    padding: 0 1rem;
+    background: blueviolet;
+    color: #fff;
+    font-weight: 500;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.taskItemContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.editBtn{
+    color: green;
+    cursor: pointer;
+    margin-right: .75rem;
+}
+.deleteBtn{
+    color: red;
+    cursor: pointer;
+}
+.singleTaskDetail{
+    display: flex;
+    column-gap: 6rem;
+    margin-bottom: .75rem;
+    align-items: center;
+}
+
+.singleTaskContainer{
+    background-color: #fff;
+    padding: 2rem;
+    width: 40%;
+    
+}
+.editTitle{
+    text-align: center;
+}
+#completed{
+    width: 15px;
+    height: 15px;
+}
+.editBtnSubmit{
+    width: 100%;
+    background: rgb(5, 54, 145);
+    color: #fff;
+    padding: .5rem 0 ;
+    font-weight: 500;
+}
+.successText{
+    text-align: center;
+    margin-top: .5rem;
+}
+.backLink{
+    background: black;
+    color: #fff;
+    display: inline-block;
+    margin-top: 4rem;
+    padding: 1rem 2rem;
+}
+.done{
+    text-decoration: line-through;
+}
